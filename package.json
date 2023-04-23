@@ -1,0 +1,21 @@
+{
+  "name": "mydex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testFactory": "npx hardhat test test/Factory.js",
+    "testPool": "npx hardhat test test/Pool.js",
+    "testAll": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.3"
+  }
+}
